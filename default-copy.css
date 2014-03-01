@@ -1,0 +1,177 @@
+
+body {
+	margin: 20px 0;
+	padding: 0;
+	background: #F9FCEA;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:70%;
+	color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+a {
+	text-decoration: underline;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+/* Header */
+
+#header {
+	width: 760px;
+	height: 224px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 200px;
+	height: 224px;
+	background: url(images/jackand-jill-music-logo.jpg) no-repeat;
+}
+
+#logo * {
+	text-align: center;
+	text-transform: lowercase;
+	text-decoration: none;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo h2 {
+	position:absolute;
+	left:-1000px;top:0;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	margin: 15px 0 0 0;
+	width: 550px;
+	height: 200px;
+	background: url(images/music-class-children.jpg);
+}
+
+#menu ul {
+	margin: 0;
+	padding: 160px 0 0 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 0 0 0 2em;
+	text-transform: lowercase;
+	font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+/* Content */
+
+#content {
+	width: 760px;
+	margin: 0 auto;
+	background: url(images/img3.gif);
+}
+
+div#content p {
+	margin: 0;
+	padding: 0 1em 1em 0;
+	font-size: 1.4em;
+	line-height:130%;
+}
+
+div#content h2 {
+	font-size: 1.7em;
+}
+
+div#content h3 {
+	font-size: 1.5em;
+}
+
+#content p.testimonials {
+	padding-bottom:2em;
+	background: url(images/quotes-left.gif) no-repeat;
+}
+
+#content p.soundclip {
+	padding:0 0 2em 40px;
+	background: url(images/musical-note.gif) no-repeat;
+}
+
+#colOne {
+	float: right;
+	width: 550px;
+}
+
+#colOne .top-head {
+	padding: 30px 0 0 20px;
+	background: url(images/img6.gif) no-repeat;
+}
+
+#colOne .content {
+	padding: 0 20px 20px 20px;
+}
+
+#colTwo {
+	float: left;
+	width: 200px;	
+}
+
+div#content #colTwo div.content p {
+	font-size: 1.2em;
+}
+
+#colTwo .top-head {
+	padding: 30px 0 0 20px;
+	background: url(images/img5.gif) no-repeat;
+}
+
+#colTwo .content {
+	padding: 3px 8px 5px 20px;
+}
+
+#extra {
+	height: 10px;
+	background: url(images/img7.gif);
+}
+
+/* Footer */
+
+#footer {
+	width: 760px;
+	margin: 0 auto;
+}
+
+#footer p {
+	margin: 0 0 0 230px;
+	padding: 1em 0 1em 0;
+	font-size: 1.1em;
+}
