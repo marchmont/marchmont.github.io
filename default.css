@@ -65,6 +65,28 @@ img {
 	background: url(images/pink_bottom.gif);
 }
 
+#advert_green {
+	width: 760px;
+	margin: 0 auto;
+}
+
+#advert_green_top {
+	width: 760px;
+	height: 21px;
+	background: url(images/green_top.gif);
+}
+
+#advert_green_middle {
+	width: 760px;
+	background: url(images/green_middle.gif);
+}
+
+#advert_green_bottom {
+	width: 760px;
+	height: 21px;
+	background: url(images/green_bottom.gif);
+}
+
 
 /* Logo */
 
